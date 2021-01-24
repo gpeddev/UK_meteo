@@ -1,0 +1,26 @@
+---
+title: "UK meteorological report"
+output: word_document
+params:
+  ldf_summary: NA
+  ldf_graph: NA
+  time: NA
+  weather: NA
+---
+
+## Summarize table
+```{r, echo=FALSE}
+library(knitr)
+#sys.source("helper.R", envir = knitr::knit_global())
+source("helper.R", local = knitr::knit_global())
+summarized_table<-give_table(params$ldf_summary)
+kable(summarized_table,"simple")
+```
+
+## Plot
+```{r echo=FALSE}
+
+plot_table<-params$ldf_graph
+  draw_plots(plot_table,params$time,params$weather)
+
+```
