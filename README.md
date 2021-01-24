@@ -5,7 +5,7 @@
 This is the end project for the course of R Programming
 
 ##### Project pdf
-[a link](https://github.com/gpeddev/UK_meteo/blob/main/Project_2020.pdf)
+[link](https://github.com/gpeddev/UK_meteo/blob/main/Project_2020.pdf)
 
 You can test the application on shinyapps.io
-[a link](https://gpeddev.shinyapps.io/project_meteo/)
+[link](https://gpeddev.shinyapps.io/project_meteo/)
