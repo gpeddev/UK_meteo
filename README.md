@@ -6,7 +6,7 @@ This is the end project for the course of R Programming
 
 ##### Project 
 
-write a Shiny app which visualises meteorological data collected at several locations across the United
+In this project you will write a Shiny app which visualises meteorological data collected at several locations across the United
 Kingdom from 1st January 2020 to 30th November 2020.
 
 The data is available on Moodle for you to download as a series of CSV files, which have been obtained from the Met Office In-
