@@ -8,6 +8,7 @@ This is the end project for the course of R Programming
 
 write a Shiny app which visualises meteorological data collected at several locations across the United
 Kingdom from 1st January 2020 to 30th November 2020.
+
 The data is available on Moodle for you to download as a series of CSV files, which have been obtained from the Met Office In-
 tegrated Data Archive System (see https://catalogue.ceda.ac.uk/uuid/220a65615218d5c9cc9e4785a3234bd0 ).
 Data have been obtained from 20 weather stations. The file Sites.csv contains information about each weather station.
@@ -15,11 +16,14 @@ There is one CSV file for each weather station which contains hourly weather mea
 relative humidity and visibility. The file names are of the form Site_<Site_ID>.csv . Each row of these files contains
 hourly measurements of the weather measurements at that station. For some stations there are some missing observations
 at certain time points.
+
 The weather variables of interest that are being reported are:
-wind speed Average wind speed in knots.
-air temperature Air temperature measured in ◦ C . Note, temperature has been rounded to the nearest 0.1 ◦ C
-rltv hum Relative humidity, measured as a (%)
-visibility Visibility, measured in metres.
+
+**wind_speed** Average wind speed in knots.
+**air_temperature** Air temperature measured in ◦ C . Note, temperature has been rounded to the nearest 0.1 ◦ C
+**rltv_hum** Relative humidity, measured as a (%)
+**visibility** Visibility, measured in metres.
+
 Your task here is to develop a Shiny app which both visualises and summarises the data. Your app should also calculate and
 report a diagnostic called the Hutton Criteria used to alert farmers of the risk of potato blight forming on potato crops.
 The Hutton Criteria occurs in a particular day when both the follwing criteria are met -
