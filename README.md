@@ -30,9 +30,11 @@ The weather variables of interest that are being reported are:
 Your task here is to develop a Shiny app which both visualises and summarises the data. Your app should also calculate and
 report a diagnostic called the Hutton Criteria used to alert farmers of the risk of potato blight forming on potato crops.
 
-The Hutton Criteria occurs in a particular day when both the follwing criteria are met -
+The Hutton Criteria occurs in a particular day when both the follwing criteria are met
+
 * The two previous days have a minimum temperature of 10 ◦ C
 * The two previous days have at least six hours of relative humidity of 90% or higher
+
 The app should have the following functionality:
 * The app should be able to produce a variety of time series plots of relevant summary statistics against time.
 * The user should be able to select from which weather variable and from which stations (at most 5) the quantities to be
