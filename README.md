@@ -40,18 +40,20 @@ The app should have the following functionality:
 * The user should be able to select from which weather variable and from which stations (at most 5) the quantities to be
 shown.
 * The user should be able to decide what aggregation to plot. This should include the following aggregations:
-- Raw hourly data (no aggregation);
-- Daily averages;
-- Monthly averages;
-- Daily maxima;
-- Daily minima;
+  - Raw hourly data (no aggregation);
+  - Daily averages;
+  - Monthly averages;
+  - Daily maxima;
+  - Daily minima;
 * The user should be able to choose how time is to be handled and what the x-axis should represent. Choices should
 include
-- Calendar time;
-- Day or hour within the week (going from 0 to 7 (days) or 0 to 168 (hours)); and
-- Hour in the day (going from 0 to 24 (hours)).
+  - Calendar time;
+  - Day or hour within the week (going from 0 to 7 (days) or 0 to 168 (hours)); and
+  - Hour in the day (going from 0 to 24 (hours)).
 For calendar time the plot should be a line plot, but for the other two choices the plot should be a scatter plot.
+
 * Make sure that suitable axis labels and legends are used.
+
 * The app should also show a second plot with the location of the weather station(s). You can use the package maps
 or ggmaps for this, or any other mapping library of your choice. The code below shows the location of all measuring
 stations together with a map of the United Kingdom (assuming the data from Sites.csv is stored in a data frame
