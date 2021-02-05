@@ -58,8 +58,10 @@ For calendar time the plot should be a line plot, but for the other two choices 
 or ggmaps for this, or any other mapping library of your choice. The code below shows the location of all measuring
 stations together with a map of the United Kingdom (assuming the data from Sites.csv is stored in a data frame
 sites ).
+```
 maps::map("world","UK")
 points(sites$Longitude, sites$Latitude, pch=16, col="red")
+```
 * Below the plot there should be a table providing a daily mean summary of all the weather variables for each site selected
 for the last seven days of data available (this should be from November 24th to November 30th).
 * The user should be able to download the table as a CSV file and the plots and table together as a Word document
