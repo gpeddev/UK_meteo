@@ -67,6 +67,7 @@ for the last seven days of data available (this should be from November 24th to 
 * For a given weather site selected by the user, report the Hutton criteria on a monthly basis (which can be selected by
 the user) for each day of the month. You can report this either graphically or in a table. (For this final part, you may
 want to create a separate tab in your app to report the criteria if you find this easier).
+You can either use classical R plots or ggplot2 for any plots you create.
 
 
 You can test the application on shinyapps.io
